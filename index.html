@@ -6,16 +6,13 @@
     <title>Unity WebGL Player | ARROW GO MIND PUZZLE GAMEES</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="https://www.youtube.com/game_api/v1"></script>
-window.addEventListener("load", function () {
+   <script src="https://www.youtube.com/game_api/v1"></script>
 
-    if (typeof ytgame !== "undefined") {
-        console.log("✅ YouTube SDK Loaded Successfully");
-    }
-    else {
-        console.log("❌ YouTube SDK NOT Loaded");
-    }
-
+<script>
+window.addEventListener("load", () => {
+    console.log(typeof ytgame !== "undefined"
+        ? "✅ YouTube SDK Loaded Successfully"
+        : "❌ YouTube SDK NOT Loaded");
 });
 </script>
   </head>
